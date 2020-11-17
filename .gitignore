@@ -1,0 +1,19 @@
+.DS_Store
+browser/node_modules
+browser/dist
+server/node_modules
+server/dist
+
+# local env files
+*.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+.history

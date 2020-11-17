@@ -1,0 +1,216 @@
+{
+    "category": {
+        "fe": {
+            "title": "前端设计",
+            "key": "fe",
+            "desc": ""
+        },
+        "php": {
+            "title": "PHP",
+            "key": "php",
+            "desc": ""
+        },
+        "go": {
+            "title": "GoLang",
+            "key": "go",
+            "desc": ""
+        },
+        "other": {
+            "title": "杂谈",
+            "key": "other",
+            "desc": ""
+        }
+    },
+    "articles": [
+        {
+            "id": "1",
+            "title": "电信校园网破解教程",
+            "desc": "本文仅提供思路，不提供工具下载\r\n\r\n一. 前言\r\n由于地域和种种原因，目前楼主接触到的校园网类型有三种：\r\n\r\n无客户端\r\nDr.com\r\n天翼客户端",
+            "createdAt": 1483959583,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "2",
+            "title": "你应该知道的资源检索方式",
+            "desc": "一. 文献检索\r\n对于大学生来说，写论文是家常便饭的事，基本每个学期都要写，所以本文就先介绍一些比较好的文献检索工具\r\n\r\n01 Google 学术\r\n从一个位置方便地搜索各种资源，查找报告、摘要及引用内容，通过您的图书馆或在 Web 上查找完整的论文，了解任何科研领域的重要论文。",
+            "createdAt": 1484651425,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "3",
+            "title": "Hexo 使用心得",
+            "desc": "Hexo 从入门到放弃",
+            "createdAt": 1486106867,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "4",
+            "title": "取不重复随机数",
+            "desc": "一. 问题\r\n给定整数集 (1-10000)，取出任意个不重复的随机数 (1-10000 个)\r\n\r\n二. 要求\r\n最大执行时间不能超过 5s\r\n\r\n三. 思路\r\n1. 思路一\r\n不停取出随机数，判断是否重复，这种方法效率极低，执行时间基本不止 5s，故放弃",
+            "createdAt": 1487506393,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "5",
+            "title": "wamp 环境安装",
+            "desc": "一. 安装前的准备\r\n查看本机的类型 (x86/x64, 即 32 位还是 64 位)\r\n安装好 VC9/VC11/VC14 运行库其中一个 (需要按照本机的类型选择安装)\r\n创建好一个安装路径用于安装整套 wamp 环境 (我使用的是 D:/tools/LAMP)",
+            "createdAt": 1488022225,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "6",
+            "title": "记 Hexo + Github Page 公益 404",
+            "desc": "一. Hexo 配置公益 404 页面\r\n从 腾讯公益 404 页面 可以获取代码，调用腾讯公益 404 页面的接口制作自己的公益 404 界面，代码如下：",
+            "createdAt": 1488272867,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "7",
+            "title": "PHP 网站中 HTTPS 的理解和配置",
+            "desc": "一. 概念解析\r\nHTTPS(全称Hyper Text Transfer Protocol over Secure Socket Layer)：是以安全为目标的 HTTP 通道，简单讲就是 HTTP 的安全版 SSL(Secure Socket Layer)：为 Netscape 所研发，用以保障在 Internet 上数据传输的安全，利用数据加密 (Encryption) 技术，可确保数据在网络上的传输过程不会被截取及窃听 HTTPS = HTTP + SSL",
+            "createdAt": 1488288902,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "8",
+            "title": "LAMP 环境配置",
+            "desc": "一. 阅读本文需要的知识\r\n知道有 Linux、Apache、PHP、MySQL 这些东西并知道是做什么的\r\n了解 shell 是什么并知道如何执行 shell\r\n安装好了 Ubuntu 虚拟机",
+            "createdAt": 1488628832,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "9",
+            "title": "Ubuntu16 中的 MySQL 默认编码修改",
+            "desc": "一. 缘由\r\n使用 MySQL 插入中文数据时提示出现了 1366 错误，查询官方文档后发现是 Mysql 的配置问题，使用 apt 安装的时候默认编码是不支持中文的，所以需要修改为 GBK 或者是 UTF8\r\n\r\n二. 本文阅读基础\r\n基本能够使用 VIM 编辑文档 (文末也有相关知识)\r\n安装 LAMP 开发环境",
+            "createdAt": 1488871044,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "10",
+            "title": "AJAX 学习笔记",
+            "desc": "一. 创建 AJAX 对象\r\n1. 主流浏览器\r\n代码如下\r\nvar xhr = new XMLHttpRequest()\r\n2. IE\r\nPS：IE7 以上版本的浏览器兼容主流浏览器",
+            "createdAt": 1489900256,
+            "categoryKey": "fe",
+            "cover": ""
+        }, {
+            "id": "11",
+            "title": "树莓派搭建 lnmp 环境并映射外网",
+            "desc": "一. 准备工作\r\n需要的物品比较多 (相对于之前有台电脑就能搭环境来说~)，以下是清单\r\n\r\n树莓派一只 (我用的是树莓派三代 B 型)\r\n连接了 WIFI 并有有线网卡的电脑 / 笔记本一台 (我使用的是 Win7 64 位操作系统)\r\n网线一条，没有的话拿电话线~ (用于连接树莓派)\r\n安卓充电器 + USB 数据线 (用于给树莓派供电)\r\n支持 SSH 连接的软件，我使用的是 PuTTY",
+            "createdAt": 1493732816,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "12",
+            "title": "markdown 参考手册",
+            "desc": "一. 什么是 Markdown\r\nMarkdown 是一种轻量级标记语言，目标是实现「易读易写」，不需要不断的选中文本——调整格式，而是预设好了一份模板交给用户自行使用，我们需要的就是按照 Markdown 的语法，告诉 Markdown 哪里是标题，哪里是链接，哪里是图片等等",
+            "createdAt": 1494141296,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "13",
+            "title": "生活随感",
+            "desc": "生活随感~ 勿点，别毁了您的三观~",
+            "createdAt": 1495274363,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "14",
+            "title": "正方教务系统一键评教脚本的实现",
+            "desc": "烦透的正方，非得找麻烦。 忽然想到一位破解界前辈说过的，很多时候，破解是为了抵制那些垃圾产品经理设计的垃圾需求，现在深有同感\r\n\r\n评教有什么用？集体评这个老师不好就能不给他教了吗？不，还是一样，该怎么样就怎么样，存在的唯一理由，就是为了给领导看",
+            "createdAt": 1496905277,
+            "categoryKey": "fe",
+            "cover": ""
+        }, {
+            "id": "15",
+            "title": "学生优惠权益 List",
+            "desc": "一. 说明\r\n本文介绍的是利用学生身份可以享受到的相关学生优惠权益，也希望各位享受权利的同时不要售卖、转手自己的学生优惠资格，影响市场秩序，要不然这类东西只会越来越少",
+            "createdAt": 1497183683,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "16",
+            "title": "小程序录音另类解码 (原创)",
+            "desc": "一. 前言\r\n最近在做小程序的后台接口，做到录音接口的时候，发现微信发送过来的文件是 .silk 格式的，使用了下发现无法在线播放，便去查找小程序录音解码代码，最后发现网上给的程序都是调用系统底层的命令执行第三方软件，再生成新的文件，由于服务器原因没办法安装相关的软件，在虚拟机中也发现解码后会出现文件头错误等字样，折腾了许久也没能解码成功，便放弃了这种方式，自己研究，以下记录我的解码过程。",
+            "createdAt": 1498566374,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "17",
+            "title": "Chrome 鼠标点击页面特效脚本分享",
+            "desc": "每天都是无聊的点击着网页查资料 但是生活总该自己制造点惊喜不是么？ 于是突发奇想做一个鼠标点击特效~ 这样就不会无聊了~ 壮哉我颜文字~\r\n\r\n可以直接安装油猴的插件，油猴插件的作用就是在指定网页自动加载指定 JS 脚本，用处很多，比如去广告、解析下载地址、破解 VIP 视频等等，如果是在 Firefox 浏览器中，甚至还能修改 Firefox 浏览器的外观\r\n\r\n代码会附在文末，这里挑几句代码解释下就完了~ 应该挺容易懂的，学过 jQuery 就能做",
+            "createdAt": 1499864745,
+            "categoryKey": "fe",
+            "cover": ""
+        }, {
+            "id": "18",
+            "title": "Chrome 下 URL 重写问题",
+            "desc": "一. 问题重现\r\n1. 运行环境\r\nApache 2.4\r\nPHP 5.6\r\nMySQL 5.5\r\nrewrite 扩展\r\nPDO 扩展\r\n2. 问题代码\r\nPHP 会重写到默认首页，以下是默认首页中的代码：",
+            "createdAt": 1502348230,
+            "categoryKey": "other",
+            "cover": ""
+        }, {
+            "id": "19",
+            "title": "composer 使用笔记",
+            "desc": "一. 本文阅读前提\r\n本文假设各位读者已经安装完 composer 并且添加了环境变量，但是还未使用 composer 创建自己的项目，以下是本人遇到的一些坑",
+            "createdAt": 1518707478,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "20",
+            "title": "JS Unicode 编码引发的字符串长度计算问题",
+            "desc": "一. 问题重现\r\n在 JS 中计算 zRvEx±¯Wë>ô¯ Ø»?ÿ*Âm\u0003|iã\u0014IUvX\\³0` 这个字符串的长度的时候（str.length），结果为 38，而在 PHP 中计算这个字符串的长度（mb_strlen(str)），则是 39，多出了 1",
+            "createdAt": 1519568277,
+            "categoryKey": "fe",
+            "cover": ""
+        }, {
+            "id": "21",
+            "title": "关于 layui 数据表格点击按钮上传图片并显示在表格中",
+            "desc": "功能：\r\n\r\n在表格内增加一列用于放置上传按钮\r\n点击上传按钮上传图片后，按钮修改为图片，点击图片也能再次上传修改图片",
+            "createdAt": 1520741983,
+            "categoryKey": "fe",
+            "cover": ""
+        }, {
+            "id": "22",
+            "title": "PHP5.6 下类成员初始化问题",
+            "desc": "问题代码\r\n代码如下\r\ndefine('DS', DIRECTORY_SEPARATOR);\r\ndefine('PATH_ROOT', dirname(__DIR__) . DS);\r\ndefine('PATH_RES', PATH_ROOT . 'static' . DS);\r\nclass Test\r\n{\r\n    protected $path = PATH_RES . \"uploads\" . DS;\r\n    ...\r\n}\r\n问题追踪\r\n如果文件所在的目录中含有 .，那么在 PHP 5.6 的环境下",
+            "createdAt": 1521698318,
+            "categoryKey": "php",
+            "cover": ""
+        }, {
+            "id": "23",
+            "title": "再战正方——一键评教",
+            "desc": "千年不更新的正方居然更新了评教页面和判定规则，以前的方法失效了，现在重新做一个",
+            "createdAt": 1527398358,
+            "categoryKey": "fe",
+            "cover": ""
+        }, {
+            "id": "24",
+            "title": "Gin 开发前后端鉴权中间件",
+            "desc": "鉴权中间件是前后端分离中十分常见的，主要用于用户身份鉴别",
+            "createdAt": 1547478492,
+            "categoryKey": "go",
+            "cover": ""
+        }, {
+            "id": "25",
+            "title": "GoLang 结构体构造函数研究",
+            "desc": "参考 Rob Pike 博客的设计方法研究较为灵活的构造方式",
+            "createdAt": 1548406522,
+            "categoryKey": "go",
+            "cover": ""
+        }, {
+            "id": "26",
+            "title": "GoLang 中的 defer 和命名返回值逻辑",
+            "desc": "GoLang 常考考点之一，defer 和 return 结合使用的一些注意事项",
+            "createdAt": 1548772799,
+            "categoryKey": "go",
+            "cover": ""
+        }, {
+            "id": "27",
+            "title": "原型继承及其衍生的问题",
+            "desc": "原型继承是 ES6 以前实现继承的方式之一，但是其衍生出来的问题，可谓是不少，本文以一道面试题为引，引出 JS 内部的一些机制",
+            "createdAt": 1553096026,
+            "categoryKey": "fe",
+            "cover": ""
+        }
+    ]
+}
